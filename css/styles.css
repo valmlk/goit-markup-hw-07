@@ -170,7 +170,7 @@ body {
     color: var(--dark-color);
   }
 
-  .mobile-menu-item:(not:last-child) {
+  .mobile-menu-item:not(:last-child) {
     margin-bottom: 40px;
   }
 
